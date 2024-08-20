@@ -29,29 +29,34 @@ For VacationPy, maps were generated.
 
 **(5) Results and Analysis:**
 
-For WeatherPy, the following plots were generated-
+(a) For WeatherPy, the following plots were generated-
 
-(a) Maximum Temperature vs. Latitude:
+(i) Maximum Temperature vs. Latitude:
+
 
 ![City Max Temperature vs. Latitude](output_data/Fig1.png)
 
 
-(b) Humidity vs. Latitude:
+(ii) Humidity vs. Latitude:
+
 
 ![Humidity vs. Latitude](output_data/Fig2.png)
 
 
-(c) Cloudiness vs. Latitude:
+(iii) Cloudiness vs. Latitude:
+
 
 ![Cloudiness vs. Latitude](output_data/Fig3.png)
 
 
-(d) Wind Speed vs. Latitude:
+(iv) Wind Speed vs. Latitude:
+
 
 ![Wind Speed vs. Latitude](output_data/Fig4.png)
 
 
-(e) Linear Regression for Temperature versus Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+(v) Linear Regression for Temperature versus Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
 
 ![Northern Hemisphere Linear Regression for Temperature versus Latitude](output_data/lr_temp_vs_lat_nh.png)
 
@@ -62,7 +67,8 @@ For WeatherPy, the following plots were generated-
 _For the relationship between Temperature and Latitude, both r-values indicate there is a strong association between Latitude and Maximum Temperature (per city), meaning as you approach the equator (Latitude = 0), the more likely it is that there is a higher Max Temperature per city. As you move northward from the south pole (increasing from -50 degrees to 0 degrees), temperatures would be higher near the equator. Likewise, moving southward from the north pole (80 degrees to 0 degrees), temperatures would be higher near the equator._
 
 
-(f) Linear Regression for Humidity versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+(vi) Linear Regression for Humidity versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
 
 ![Northern Hemisphere Linear Regression for Humidity versus Latitude](output_data/lr_humidity_vs_lat_nh.png)
 
@@ -73,7 +79,8 @@ _For the relationship between Temperature and Latitude, both r-values indicate t
 _For the relationship between Humidity and Latitude, both r-values indicate weak to no association between Latitude and Humidity as you approach the equator (0 degrees) from either pole. Relatively flat line linear regression lines indicates no ability to predict humidity based on latitude._
 
 
-(g) Linear Regression for Cloudiness versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+(vii) Linear Regression for Cloudiness versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
 
 ![Northern Hemisphere Linear Regression for Cloudiness versus Latitude](output_data/lr_cloudiness_vs_lat_nh.png)
 
@@ -84,7 +91,8 @@ _For the relationship between Humidity and Latitude, both r-values indicate weak
 _For the relationship between Cloudiness and Latitude, both r-values indicate weak to no association between Latitude and Cloudiness as you approach the equator (0 degrees) from either pole. Clustering of points at 0% and 100% Cloudiness may indicate an association between Cloudiness and another factor, but Latitude is a poor predictor of Cloudiness per degree Latitude._
 
 
-(g) Linear Regression for Wind Speed versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+(viii) Linear Regression for Wind Speed versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
 
 ![Northern Hemisphere Linear Regression for Wind Speed versus Latitude](output_data/lr_wind_vs_lat_nh.png)
 
@@ -95,23 +103,34 @@ _For the relationship between Cloudiness and Latitude, both r-values indicate we
 _For the relationship between Wind Speed and Latitude, both r-values indicate weak to no association between Latitude and Wind Speed as you approach the equator (0 degrees) from either pole. As with Humidity above, relatively flat line linear regression lines indicates no ability to predict wind speed based on latitude._
 
 
+(b) For VacationPy, the following maps were generated-
+
+(i) Map of prospective vacation cities where marker size is determined by humidity (larger markers have higher humidity):
 
 
+![Prospective cities](output_data/humidity_magnitude_by_location.png)
 
 
+(ii) Map of prospective vacation cities where the temperature is between 21 and 27 degrees Celsius; no clouds; and the wind speed is less than 4.5 meters per second with hotel information:
 
 
+![Prospective cities with specific characteristics](output_data/possible_destinations.png)
 
 
 
 **(6) Ethical Considerations:**
 
-(Discuss any ethical considerations taken into account during the project, such as data privacy, bias, or fairness)
+The data from API websites is generally readily available and contains no sensitive information. The .csv date could be collected in a similar format with significant effort, but also contains no sensitive information.
 
 
 **(7) Instructions for Interacting with the Project:**
 
-(Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations)
+Python code is available in two files within the **WeatherPy** folder, namely "WeatherPy.ipynb" and "VacationPy.ipynb".
+
+As noted above, "cities.csv", filed in the **output_data** folder.
+
+Plots and maps are filed in in the **output_data** folder as .png files.
+
 
 **(8) Citations:**
 
