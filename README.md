@@ -41,16 +41,58 @@ For WeatherPy, the following plots were generated-
 ![Humidity vs. Latitude](output_data/Fig2.png)
 
 
-(c) Cloudiness vs. Latitude
+(c) Cloudiness vs. Latitude:
 
 ![Cloudiness vs. Latitude](output_data/Fig3.png)
 
 
-(d) Wind Speed vs. Latitude
+(d) Wind Speed vs. Latitude:
 
 ![Wind Speed vs. Latitude](output_data/Fig4.png)
 
 
+(e) Linear Regression for Temperature versus Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
+![Northern Hemisphere Linear Regression for Temperature versus Latitude](output_data/lr_temp_vs_lat_nh.png)
+
+
+![Southern Hemisphere Linear Regression for Temperature versus Latitude](output_data/lr_temp_vs_lat_sh.png)
+
+
+For the relationship between Temperature and Latitude, both r-values indicate there is a strong association between Latitude and Maximum Temperature (per city), meaning as you approach the equator (Latitude = 0), the more likely it is that there is a higher Max Temperature per city. As you move northward from the south pole (increasing from -50 degrees to 0 degrees), temperatures would be higher near the equator. Likewise, moving southward from the north pole (80 degrees to 0 degrees), temperatures would be higher near the equator.
+
+
+(f) Linear Regression for Humidity versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
+![Northern Hemisphere Linear Regression for Humidity versus Latitude](output_data/lr_humidity_vs_lat_nh.png)
+
+
+![Southern Hemisphere Linear Regression for Humidity versus Latitude](output_data/lr_humidity_vs_lat_sh.png)
+
+
+For the relationship between Humidity and Latitude, both r-values indicate weak to no association between Latitude and Humidity as you approach the equator (0 degrees) from either pole. Relatively flat line linear regression lines indicates no ability to predict humidity based on latitude.
+
+
+(g) Linear Regression for Cloudiness versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
+![Northern Hemisphere Linear Regression for Cloudiness versus Latitude](output_data/lr_cloudiness_vs_lat_nh.png)
+
+
+![Southern Hemisphere Linear Regression for Cloudiness versus Latitude](output_data/lr_cloudiness_vs_lat_sh.png)
+
+
+For the relationship between Cloudiness and Latitude, both r-values indicate weak to no association between Latitude and Cloudiness as you approach the equator (0 degrees) from either pole. Clustering of points at 0% and 100% Cloudiness may indicate an association between Cloudiness and another factor, but Latitude is a poor predictor of Cloudiness per degree Latitude.
+
+
+(g) Linear Regression for Wind Speed versue Latitude [Northern Hemisphere, followed by Southern Hemisphere]:
+
+![Northern Hemisphere Linear Regression for Wind Speed versus Latitude](output_data/lr_wind_vs_lat_nh.png)
+
+
+![Southern Hemisphere Linear Regression for Wind Speed versus Latitude](output_data/lr_wind_vs_lat_sh.png)
+
+
+For the relationship between Wind Speed and Latitude, both r-values indicate weak to no association between Latitude and Wind Speed as you approach the equator (0 degrees) from either pole. As with Humidity above, relatively flat line linear regression lines indicates no ability to predict wind speed based on latitude.
 
 
 
@@ -71,16 +113,16 @@ For WeatherPy, the following plots were generated-
 
 (Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations)
 
-Citations:
+**(8) Citations:**
 
-(1) .copy(). (2023, April 2). Retrieved from https://www.codecademy.com/resources/docs/pandas/dataframe/copy/
+(a) .copy(). (2023, April 2). Retrieved from https://www.codecademy.com/resources/docs/pandas/dataframe/copy/
 
-(2) Xpert Learning Assistant:
+(b) Xpert Learning Assistant:
 
-    (a) question about requesting metrics units from https://openweathermap.org/api
+    (i) question about requesting metrics units from https://openweathermap.org/api
 
-    (b) question about how to define a function
+    (ii) question about how to define a function
 
-    (c) question about changing map plot colors
+    (iii) question about changing map plot colors
 
-    (d) questions about visualizing json response and diagnosing issues when no hotels were being identified for VacationPy exercise
+    (iv) questions about visualizing json response and diagnosing issues when no hotels were being identified for VacationPy exercise
