@@ -22,12 +22,16 @@ The API responses were the result of a specific requests for information from ea
 
 **(4) Data Visualization Techniques:**
 
-(Detail the data visualization techniques used in the project, such as bar charts, line graphs, scatter plots, etc. Explain why these techniques were chosen and how they help in understanding the data)
+For WeatherPy, Scatter Plots (with and without Linear Regression) were generated.
+
+For VacationPy, maps were generated.
 
 
 **(5) Results and Analysis:**
 
-(Present the insights gained from the data visualization. Describe any patterns, trends, or relationships discovered in the data)
+For WeatherPy-
+
+![
 
 
 **(6) Ethical Considerations:**
