@@ -29,9 +29,10 @@ For VacationPy, maps were generated.
 
 **(5) Results and Analysis:**
 
-For WeatherPy-
+For WeatherPy, the following plots were generated-
 
-![
+City Maximum Temperature vs. Latitude
+![City Max Temperature vs. Latitude](Output/Fig1.png)
 
 
 **(6) Ethical Considerations:**
