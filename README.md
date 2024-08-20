@@ -31,8 +31,35 @@ For VacationPy, maps were generated.
 
 For WeatherPy, the following plots were generated-
 
-City Maximum Temperature vs. Latitude
+(a) Maximum Temperature vs. Latitude:
+
 ![City Max Temperature vs. Latitude](output_data/Fig1.png)
+
+
+(b) Humidity vs. Latitude:
+
+![Humidity vs. Latitude](output_data/Fig2.png)
+
+
+(c) Cloudiness vs. Latitude
+
+![Cloudiness vs. Latitude](output_data/Fig3.png)
+
+
+(d) Wind Speed vs. Latitude
+
+![Wind Speed vs. Latitude](output_data/Fig4.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 **(6) Ethical Considerations:**
