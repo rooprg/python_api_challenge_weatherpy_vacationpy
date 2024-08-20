@@ -32,7 +32,7 @@ For VacationPy, maps were generated.
 For WeatherPy, the following plots were generated-
 
 City Maximum Temperature vs. Latitude
-![City Max Temperature vs. Latitude](Output/Fig1.png)
+![City Max Temperature vs. Latitude](output_data/Fig1.png)
 
 
 **(6) Ethical Considerations:**
